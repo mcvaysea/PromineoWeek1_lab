@@ -185,14 +185,14 @@ var z = ((num1 * num2) + 10);
 console.log(z); */
 
 
-
+/* 
 var x = 5;
 var y = 6;
 x = 3 + y;
 var z = x + y;
 y = 5 + 2 * x;
 x = y;
-console.log(z);
+console.log(z); */
 
 /* var num1 = 45;
 var num2 = 45;
@@ -206,3 +206,12 @@ var x = true;
 console.log(typeof x);
 
  */
+
+
+var myName = "San";
+
+if (myName == 'Sean') {
+    console.log('Hey there ' + (myName));
+} else {
+    console.log('Hello there stranger.');
+}
